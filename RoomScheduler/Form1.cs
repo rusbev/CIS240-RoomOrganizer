@@ -16,5 +16,15 @@ namespace RoomScheduler
         {
             InitializeComponent();
         }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnBooking_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bellvue Room Booked\n2:00PM-3:00PM", "Booking Confirmation", MessageBoxButtons.OKCancel);
+        }
     }
 }
